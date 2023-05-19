@@ -3,7 +3,7 @@ import amqp from "amqplib";
 const queue = "product_inventory";
 const text = {
   item_id: "macbook",
-  text: "This is a samle message to send receiver to check the ordered Item Availablility",
+  text: "This is a sample message to send receiver to check the ordered Item Availablility",
 };
 
 (async () => {
